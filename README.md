@@ -1,10 +1,6 @@
-<div style="text-align: center;">
-
-<img src="https://lh4.googleusercontent.com/proxy/TYEapJ_0zp4AE90WAgWNTUQk5JS-WsX4L531MR8f0uyLCfdP3h6a1f4TEOMnSmHpeqZZzGzYq4C8BwAhA3TgZzBTTBWHVfo9kbp0DKuIwpclIvfVZZEG3b8RikCKjMHt5RPKigIk0g" alt="Image" style="max-width: 100%; height: auto;">
-
-</div>
-
-
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/proxy/TYEapJ_0zp4AE90WAgWNTUQk5JS-WsX4L531MR8f0uyLCfdP3h6a1f4TEOMnSmHpeqZZzGzYq4C8BwAhA3TgZzBTTBWHVfo9kbp0DKuIwpclIvfVZZEG3b8RikCKjMHt5RPKigIk0g" alt="Centered Image">
+</p>
 
 # Docker Setup for MariaDB
 
