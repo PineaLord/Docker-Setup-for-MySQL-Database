@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  database:
+    image: mariadb:latest
+    container_name: MySQL-Database
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: <ROOT_PASSWORD>   # Replace with your root password
+      MYSQL_DATABASE: <DB_NAME>              # Replace with the name of your database
+      MYSQL_USER: <DB_USER>                  # Replace with your database username
+      MYSQL_PASSWORD: <DB_PASSWORD>          # Replace with your database password
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - webnet-network
+
+volumes:
+  db_data:
+
+networks:
+  webnet-network:                            # Replace with your docker network setup
+    external: true
